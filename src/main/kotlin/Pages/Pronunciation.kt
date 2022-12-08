@@ -14,6 +14,7 @@ import react.dom.html.ReactHTML.div
 import react.dom.html.ReactHTML.p
 
 val Pronunciation = FC<Props> {
+    window.document.title = "Pronunciation"
     div {
         css {
             fontFamily = "Rodondo" as FontFamily
@@ -74,7 +75,7 @@ val Pronunciation = FC<Props> {
 
 
     TextBackground {
-        text = "pronunciation"
+        text = window.document.title
     }
     GradientBackground{}
 

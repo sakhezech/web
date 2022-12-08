@@ -5,6 +5,7 @@ package Pages
 import Components.*
 import csstype.*
 import emotion.react.css
+import kotlinx.browser.window
 import react.FC
 import react.Props
 import react.dom.html.ReactHTML.a
@@ -16,6 +17,8 @@ import react.useState
 
 
 val MainPage = FC<Props> {
+
+    window.document.title = "Sakhezech"
 
     val showcases = listOf<ShowcaseWindowData>(
         ShowcaseWindowData(
@@ -104,7 +107,7 @@ val MainPage = FC<Props> {
     )
 
 
-    TextBackground { text = "sakhezech" }
+    TextBackground { text = window.document.title }
     GradientBackground{}
     div {
         css {
@@ -126,7 +129,7 @@ val MainPage = FC<Props> {
                         color = NamedColor.black
                     }
                 }
-                href = "/pronunciation"
+                href = "#/pronunciation"
                 +"Sakhezech"
             }
             +" and I'm ${randomphrase}."

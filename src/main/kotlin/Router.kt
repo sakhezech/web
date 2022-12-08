@@ -1,3 +1,4 @@
+
 import Components.MobileContext
 import Pages.MainPage
 import Pages.Pronunciation
@@ -7,7 +8,7 @@ import react.Props
 import react.createElement
 import react.router.Route
 import react.router.Routes
-import react.router.dom.BrowserRouter
+import react.router.dom.HashRouter
 import react.useState
 
 val Router = FC<Props> {
@@ -23,7 +24,7 @@ val Router = FC<Props> {
 
 
     MobileContext.Provider (ismobile) {
-        BrowserRouter {
+        HashRouter {
             Routes {
                 Route {
                     index = true
@@ -31,7 +32,7 @@ val Router = FC<Props> {
                 }
 
                 Route {
-                    path = "/pronunciation"
+                    path = "pronunciation"
                     element = createElement(Pronunciation)
                 }
             }
