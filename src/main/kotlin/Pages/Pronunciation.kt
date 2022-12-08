@@ -17,7 +17,7 @@ val Pronunciation = FC<Props> {
     window.document.title = "Pronunciation"
     div {
         css {
-            fontFamily = "Rodondo" as FontFamily
+            fontFamily = FontFamily.monospace
             color = NamedColor.white
             display = Display.flex
             flexDirection = FlexDirection.column
@@ -44,6 +44,7 @@ val Pronunciation = FC<Props> {
             p {
                 +"SAKHEZECH"
                 css {
+                    fontFamily = "Rodondo" as FontFamily
                     fontWeight = FontWeight.bold
                     fontSize = 100.px
                     margin = 0.px
@@ -52,7 +53,6 @@ val Pronunciation = FC<Props> {
             p {
                 +"[sa'xʲezʲetɕ] or ['saxa] or ['sax]"
                 css {
-                    fontFamily = FontFamily.monospace
                     fontSize = 40.px
                     margin = 0.px
                 }
@@ -67,7 +67,7 @@ val Pronunciation = FC<Props> {
                         hover { color = NamedColor.black }
                     }
                 }
-                css { fontFamily = FontFamily.monospace; fontSize = 15.px; margin = 0.px }
+                css { fontSize = 15.px; margin = 0.px }
             }
         }
     }

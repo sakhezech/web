@@ -14,3 +14,7 @@
     font-display: swap;
 }
 
+*::selection {
+    background-color: white;
+    color: black;
+}

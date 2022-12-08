@@ -58,8 +58,8 @@ val ShowcasePolaroid = FC<ShowcaseWindowInt> { props ->
                 marginRight = 3.px
                 textAlign = TextAlign.center
             }
-            p { +"${props.title} "; css { marginTop = (-3).px; fontWeight = FontWeight.bold; fontSize = 1.5.em; fontFamily = "Rodondo" as FontFamily } }
-            p { +props.text; css{fontFamily = FontFamily.monospace} }
+            p { +"${props.title} "; css { marginTop = (-3).px; marginBottom = 0.px; fontWeight = FontWeight.bold; fontSize = 1.5.em; fontFamily = "Rodondo" as FontFamily } }
+            p { +props.text; }
         }
     }
 
