@@ -60,7 +60,7 @@ val Pronunciation = FC<Props> {
             p {
                 +"Video "
                 a {
-                    href = "https://youtu.be/_0nVfTp8TZ4"
+                    href = "https://youtu.be/YXbeNQSWPGw"
                     +"here"
                     css {
                         color = NamedColor.white
