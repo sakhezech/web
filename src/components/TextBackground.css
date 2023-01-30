@@ -1,0 +1,31 @@
+@keyframes text_blink {
+    0% {
+        opacity: 0.00;
+    }
+    50% {
+        opacity: 0.05;
+    }
+    100% {
+        opacity: 0.00;
+    }
+}
+
+.textbg_bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 120%;
+    width: 100%;
+    font-family: Rodondo;
+    font-size: 100px;
+    z-index: -1;
+    animation-name: text_blink;
+    user-select: none;
+    color: black;
+    text-align: center;
+    word-break: break-all;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    overflow: hidden;
+}

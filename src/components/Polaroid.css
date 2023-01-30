@@ -1,0 +1,43 @@
+.polar_polaroid {
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    transition-property: all;
+    border: 2px solid black;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    overflow-wrap: normal;
+    word-break: break-word;
+    background-color: transparent;
+    width: min-content;
+    height: min-content;
+
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: normal;
+}
+
+.polar_polaroid:hover {
+    color: white;
+    background-color: #FFFFFF64;
+    transform: translate(0px, -5px);
+    border: 2px solid white;
+}
+
+.polar_title, .polar_body {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin: 12px 3px;
+}
+
+.polar_title {
+    font-family: Rodondo;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.polar_body {
+    font-size: 90%;
+}

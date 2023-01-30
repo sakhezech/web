@@ -1,0 +1,14 @@
+
+.main_projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: normal;
+    margin-block: 15px;
+}
+
+.main_intro {
+    font-family: Rodondo;
+    font-size: 50px;
+    font-weight: bold;
+}

@@ -1,0 +1,8 @@
+[
+    {
+        "img": "project_imgs/hlrimg.png",
+        "link":"https://github.com/sakhezech/hyperlightrandomizer",
+        "title": "HLRandomizer",
+        "text": "An item, room, and enemy randomizer for Hyper Light Drifter. Written in Python"
+    }
+]
